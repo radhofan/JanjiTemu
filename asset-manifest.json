@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/janjitemu/static/css/main.4dcff028.css",
+    "main.js": "/janjitemu/static/js/main.2686a7f0.js",
+    "index.html": "/janjitemu/index.html",
+    "main.4dcff028.css.map": "/janjitemu/static/css/main.4dcff028.css.map",
+    "main.2686a7f0.js.map": "/janjitemu/static/js/main.2686a7f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4dcff028.css",
+    "static/js/main.2686a7f0.js"
+  ]
+}
