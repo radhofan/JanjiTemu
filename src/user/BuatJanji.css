@@ -1,0 +1,13 @@
+.spesialis-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    justify-content: center;
+  }
+  
+  .spesialis-list li {
+    margin-right: 10px; /* Add spacing between items */
+  }
+  

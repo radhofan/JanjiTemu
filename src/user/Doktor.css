@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .left {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .doctor-img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .right {
+    flex: 2;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .appointment-btn {
+    display: block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  

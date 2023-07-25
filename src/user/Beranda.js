@@ -1,8 +1,13 @@
-import React from 'react'
+import React,{useState} from 'react'
 import Navbar from './Navbar'
+import { Navigate } from 'react-router-dom';
 import './Beranda.css'
 
 function Beranda() {
+  const [buatJanji,setBuatJanji] = useState(false)
+  function doBuatJanji(){
+    setBuatJanji(true)
+  }
   return (
     <div>
 
@@ -18,11 +23,12 @@ function Beranda() {
       </div>
 
       <div className='lower-container'>
-        <ul>Buat Janji</ul>
+        <ul onClick={doBuatJanji}>Buat Janji</ul>
         <ul>Medical Check-Up</ul>
         <ul>Radiologi</ul>
         <ul>Cek Lab</ul>
         <ul>Tes Covid-19</ul>
+        {buatJanji && (<Navigate to="/BuatJanji" replace={true} />)}
       </div>
 
 

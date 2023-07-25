@@ -17,9 +17,9 @@ function Profil() {
   }
 
   function tombolDaftar(){
-    setDaftar(true)
+    setDaftar(true) 
   }
-  function tombolMasuk(){
+  function tombolMasuk(){ 
     setDaftar(false)
   }
 
